@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer with Timestamps</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Timer App</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="timer-section">
+        <div class="timer-container">
+            <h2>Timer</h2>
+            <div id="timer-display">00:00:00</div>
+            <div id="start-timestamp"></div>
+            <div id="stop-timestamp"></div>
+            <div class="timer-buttons">
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
